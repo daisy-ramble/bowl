@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>星座推荐</title>
+<style>
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	text-align:center;
+	width:100%;
+	height:auto;
+	}
+.xingzuo{
+	text-align: center;
+	height: auto;
+	width: 100%;
+	padding-top: 3%;
+	}
+.yunshi3{
+	width: 79.16%;
+	height: auto;
+	padding-left: 15%;
+	}
+.luffy3{
+	width: 55%;
+	height: auto;
+	float: left;
+	padding-bottom: 15%;
+	}
+.xztb{
+	width: 19.8%;
+	height: auto;
+	margin-top: 20%;
+	margin-left: 10%;
+	}
+.xzzt{
+	width: 19.8%;
+	height:auto;
+	margin-left: 10%;
+	}
+.daohang{
+	position:fixed;
+	bottom:0;
+	width: 100%;
+	height: auto;
+	background: url(images/daohangbg.png);
+	background-size:100%;
+	margin-top: 2%;
+	padding-top: 4%;
+	padding-bottom: 1%;
+	}
+.dhtb{
+	width: 70%;
+	height: 70%;
+	}
+.dhtb2{
+	width: 56%;
+	height: 56%;
+	}
+.td{
+	text-align: center;
+	margin-right: 19%;
+	margin-left: 19%;
+	}
+	
+</style>
+<script type="text/javascript" language="JavaScript">  
+image = new Array(11); //定义image为图片数量的数组   
+　　 image [0] = 'images/Constellation/yx0.png' //背景图象的路径   
+　　 image [1] = 'images/Constellation/yx1.png'   
+　　 image [2] = 'images/Constellation/yx2.png'  
+   image [3] = 'images/Constellation/yx3.png' //背景图象的路径   
+　　 image [4] = 'images/Constellation/yx4.png'   
+　　 image [5] = 'images/Constellation/yx5.png' 
+   image [6] = 'images/Constellation/yx6.png' //背景图象的路径   
+　　 image [7] = 'images/Constellation/yx7.png'   
+　　 image [8] = 'images/Constellation/yx8.png' 
+   image [9] = 'images/Constellation/yx9.png' //背景图象的路径   
+　　 image [10] = 'images/Constellation/yx10.png'   
+　　 image [11] = 'images/Constellation/yx11.png'    
+　　 number = Math.floor(Math.random() * image.length);   
+</script> 
+</head>
+
+<body>
+<img src="images/l01.png" >
+<div class="yunshi3">
+<script>
+	document.write("<img  src="+image[number]+"></img>"); 
+</script>
+</div>
+<div>
+<img class="luffy3" src="images/x03.png">
+<div>
+<img class="xztb" src='images/123_42.png'>
+<img class="xzzt" src="images/byz.png">
+</div>
+</div>
+<table class="daohang">
+    <td class="td"><a href='first.html'><img class="dhtb" src="images/sytb.png"></a></td>
+    <td class="td" ><a href='xingzuo2.html'><img class="dhtb2" src="images/xztb2.png"></a></td>
+    <td class="td"><a href='random.html'><img class="dhtb" src="images/sbtb.png"></a></td>
+    <td class="td" ><a href='personal.html'><img class="dhtb"  src="images/grtb.png"></a></td>
+</table>
+</body>
+</html>
